@@ -17,7 +17,7 @@
  *  License along with this program.
  *  If not, see <http://www.gnu.org/licenses/>.
  */
-#include <wobjectdefs.h>
+#include <verdigris/wobjectdefs.hpp>
 #include <QtCore/QObject>
 #include <QtCore/QMetaObject>
 
@@ -62,7 +62,7 @@ private /*slots*/:
     W_SLOT(testQNamespace, W_Access::Private)
 };
 
-#include <wobjectimpl.h>
+#include <verdigris/wobjectimpl.hpp>
 
 #include <QtTest/QtTest>
 

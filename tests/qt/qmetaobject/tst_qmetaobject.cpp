@@ -33,7 +33,7 @@
 #include <qabstractproxymodel.h>
 #include <private/qmetaobject_p.h>
 
-#include <wobjectimpl.h>
+#include <verdigris/wobjectimpl.hpp>
 
 Q_DECLARE_METATYPE(const QMetaObject *)
 

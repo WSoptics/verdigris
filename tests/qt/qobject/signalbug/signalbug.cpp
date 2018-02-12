@@ -31,7 +31,7 @@
 #include <qcoreapplication.h>
 #include <qstring.h>
 
-#include <wobjectimpl.h>
+#include <verdigris/wobjectimpl.hpp>
 
 W_OBJECT_IMPL(Receiver)
 W_OBJECT_IMPL(Sender)

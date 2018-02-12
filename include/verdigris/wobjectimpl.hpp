@@ -21,7 +21,7 @@
  */
 #pragma once
 
-#include "wobjectdefs.h"
+#include "wobjectdefs.hpp"
 #include <QtCore/qobject.h>
 
 namespace w_internal {

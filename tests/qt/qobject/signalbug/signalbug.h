@@ -31,7 +31,7 @@
 
 
 #include <QObject>
-#include <wobjectdefs.h>
+#include <verdigris/wobjectdefs.hpp>
 
 class Sender;
 

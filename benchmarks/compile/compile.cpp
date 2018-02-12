@@ -3,7 +3,7 @@
 
 #ifdef USE_VERDIGRIS
 
-#include <wobjectimpl.h>
+#include <verdigris/wobjectimpl.hpp>
 
 #define CS_OBJECT(X) W_OBJECT(X)
 #define CS_OBJECT_MULTIPLE(X,XX) W_OBJECT(X)

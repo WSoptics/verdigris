@@ -32,7 +32,7 @@
 
 #include <qobject.h>
 #include <qmetaobject.h>
-#include "wobjectimpl.h"
+#include "verdigris/wobjectimpl.hpp"
 
 class tst_QMetaMethod : public QObject
 {

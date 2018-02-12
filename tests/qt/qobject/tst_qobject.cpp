@@ -49,7 +49,7 @@
 
 #include <math.h>
 
-#include <wobjectimpl.h>
+#include <verdigris/wobjectimpl.hpp>
 
 W_REGISTER_ARGTYPE(int&)
 W_REGISTER_ARGTYPE(short&)

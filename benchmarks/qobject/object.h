@@ -29,7 +29,7 @@
 #define OBJECT_H
 
 #include <qobject.h>
-#include "wobjectimpl.h"
+#include "verdigris/wobjectimpl.hpp"
 
 class Object : public QObject
 {

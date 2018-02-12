@@ -17,7 +17,7 @@
  *  License along with this program.
  *  If not, see <http://www.gnu.org/licenses/>.
  */
-#include <wobjectdefs.h>
+#include <verdigris/wobjectdefs.hpp>
 #include <QtCore/QObject>
 class tst_Templates : public QObject
 {
@@ -211,7 +211,7 @@ QTEST_MAIN(tst_Templates)
 
 W_REGISTER_ARGTYPE(ReduceKernel<Functor,Functor,int>*)
 
-#include <wobjectimpl.h>
+#include <verdigris/wobjectimpl.hpp>
 W_OBJECT_IMPL(tst_Templates)
 W_OBJECT_IMPL((TestTemplate<T,I,B,S>), template<typename T, int I, bool B, class S>)
 W_OBJECT_IMPL(TestTemplate2<T>, template<typename T>)
